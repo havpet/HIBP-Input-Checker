@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>HIBP Extension</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+  </head>
+
+  <body>
+    <h1>Have you been pwned?</h1>
+    <div id="container">
+      <span>Checks every email input for match in the haveibeenpwned.com database</span>
+    </div>
+  </body>
+</html>

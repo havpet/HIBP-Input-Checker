@@ -1,0 +1,8 @@
+.popover-header {
+    display:none;
+}
+.popover-body {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    text-align:center;
+}
