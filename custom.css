@@ -1,3 +1,9 @@
+.popover {
+    z-index: 1010;
+    position:relative;
+    opacity:1!important;
+}
+
 .popover-header {
     display:none;
 }
@@ -5,4 +11,5 @@
     color: #9F6000;
     background-color: #FEEFB3;
     text-align:center;
+    font-size:15px;
 }

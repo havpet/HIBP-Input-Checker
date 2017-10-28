@@ -1,2 +1,2 @@
 # HIBP-Input-Checker
-Checks every email input in chrome for breach data from haveibeenpwned.com
+Chrome plugin that checks every email input for breach data from haveibeenpwned.com.

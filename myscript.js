@@ -60,6 +60,9 @@ function checkEmail(input) {
             $(input).attr("title", "Pwned email");
             $(input).attr("data-content", "This email have been pwned " + times_string + breaches_string + "Remember to choose a unique password!");
             $(input).attr("data-placement", "top");
+            $(input).attr("data-container", "body");
+            $(input).attr("style", "");
+
             $(input).popover('enable');  
             $(input).popover('show');   
 
